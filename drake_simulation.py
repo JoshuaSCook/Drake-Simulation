@@ -188,7 +188,7 @@ while done == False:
     screen.fill(black) 
     
     # write draw code here
-    #screen.blit(image, (0, 0))
+    screen.blit(image, (0, 0))
           
     for civ in ex_civs:
         strength = float((10000 - (t - civ[2]))) / 10000.0
